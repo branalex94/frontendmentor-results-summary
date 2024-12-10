@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./_colors.scss";
+@import "./_fonts.scss";
+
+html {
+  font-size: $standardFontSize;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.color-green {
+  color: $green-teal;
+}
+
+.color-red {
+  color: $light-red;
+}
+
+.color-yellow {
+  color: $orangey-yellow;
+}
+
+.color-dark-blue {
+  color: $cobalt-blue;
+}
+
+.color-white {
+  color: $white;
+}
+
+.color-pale-blue {
+  color: $pale-blue;
+}
+.color-light-lavender {
+  color: $light-lavender;
+}
+.color-dark-gray-blue {
+  color: $dark-gray-blue;
+}
+
+.dark-gray-blue-bg {
+  background: $dark-gray-blue;
+}
+
+.dark-blue-gradient-bg {
+  background: $lightBlueToDarkBlueGradient;
+}
+
+.dark-blue-gradient-circle-bg {
+  background: linear-gradient(to bottom, $violet-blue, $persian-blue);
+}

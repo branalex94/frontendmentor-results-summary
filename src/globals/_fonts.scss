@@ -1,0 +1,26 @@
+$standardFontSize: 18px;
+
+
+@layer base {
+  @font-face {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/fonts/static/HankenGrotesk-Medium.ttf') format('ttf');
+  }
+  @font-face {
+    font-family: 'Hanken Grotesk';
+    font-style: bold;
+    font-weight: 700;
+    font-display: swap;
+    src: url('/fonts/static/HankenGrotesk-Bold.ttf') format('ttf');
+  }
+  @font-face {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/fonts/HankenGrotesk-ExtraBold.ttf') format('ttf');
+  }
+}

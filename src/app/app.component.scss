@@ -1,0 +1,11 @@
+@import '../globals/_colors.scss';
+
+.results-card {
+  @apply md:shadow-cardShadow
+}
+
+.continue-btn {
+  &:hover {
+    background: $lightBlueToDarkBlueGradient;
+  }
+}
