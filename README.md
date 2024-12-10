@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/branalex94/frontendmentor-results-summary](https://github.com/branalex94/frontendmentor-results-summary)
+- Live Site URL: [https://frontendmentor-results-summary.onrender.com](https://frontendmentor-results-summary.onrender.com)
 
 ## My process
 
